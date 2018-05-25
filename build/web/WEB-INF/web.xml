@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+    <servlet>
+        <servlet-name>addProduct</servlet-name>
+        <servlet-class>product.addProduct</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addProductName</servlet-name>
+        <servlet-class>product.addCompanyName</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addCompany</servlet-name>
+        <servlet-class>product.addCompany</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addCategory</servlet-name>
+        <servlet-class>product.addCategory</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addSubCategory</servlet-name>
+        <servlet-class>product.addSubCategory</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getSubCategory</servlet-name>
+        <servlet-class>product.getSubCategory</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getCategory</servlet-name>
+        <servlet-class>product.getCategory</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>viewProductFilterServlet</servlet-name>
+        <servlet-class>product.viewProductFilterServlet</servlet-class>
+    </servlet>
+   
+    <servlet>
+        <servlet-name>getProductSubCategory</servlet-name>
+        <servlet-class>product.getProductSubCategory</servlet-class>
+    </servlet>
+	
+	    <servlet>
+        <servlet-name>addProductServlet</servlet-name>
+        <servlet-class>product.addProductServlet</servlet-class>
+    </servlet>
+	
+	  <servlet>
+        <servlet-name>removeSubCategory</servlet-name>
+        <servlet-class>product.removeSubCategory</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>removeCategory</servlet-name>
+        <servlet-class>product.removeCategory</servlet-class>
+    </servlet>
+	
+	    <servlet-mapping>
+        <servlet-name>getProductSubCategory</servlet-name>
+        <url-pattern>/getProductSubCategory</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+   
+</web-app>

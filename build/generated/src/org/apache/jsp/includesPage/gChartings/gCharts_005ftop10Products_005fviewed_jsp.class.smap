@@ -1,0 +1,16 @@
+SMAP
+gCharts_005ftop10Products_005fviewed_jsp.java
+JSP
+*S JSP
+*F
++ 0 gCharts_top10Products_viewed.jsp
+includesPage/gChartings/gCharts_top10Products_viewed.jsp
+*L
+5,12:51
+20,19:67
+38,12:86
+63,5:98
+84,2:103
+85,18:105
+102,18:123
+*E
